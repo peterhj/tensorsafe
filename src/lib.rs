@@ -54,6 +54,8 @@ pub enum TensorsafeDtype {
   F16,
   #[serde(rename = "bf16")]
   Bf16,
+  #[serde(rename = "f8_e4m3")]
+  F8_e4m3,
 }
 
 #[derive(Clone, Deserialize, Debug)]
