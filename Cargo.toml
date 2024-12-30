@@ -1,0 +1,13 @@
+[package]
+name = "tensorsafe"
+version = "0.1.0-devel"
+authors = ["Peter Jin"]
+license = "Apache-2.0 OR MIT"
+edition = "2021"
+
+[dependencies]
+byteorder = { version = "^1.4" }
+libc = { version = "^0.2" }
+serde = { version = "^1.0", features = ["derive"] }
+serde_json = { version = "^1.0" }
+smol_str = { version = "^0.2", default-features = false, features = ["serde"] }
